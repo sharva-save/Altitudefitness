@@ -1,0 +1,69 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>transformation</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="./photos/icon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="photos/icon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="photos/icon/favicon-16x16.png">
+    <link rel="manifest" href="photos/icon/site.webmanifest">
+      <!-- this code is copied from flicker  15 -->
+      <link rel="manifest" href="photos/icon/site.webmanifest">
+      <!-- CSS -->
+      <!-- this code is copied from flickity   -->
+  <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+    <style>
+        body{
+            background-color: chartreuse;
+        }
+         @media all and (max-width:1000px)  and (min-width:600px) {
+            section .carousel .nav{
+                height: 500px;
+                width: 100%;
+                border: 3px solid rgb(70, 18, 193);
+                padding: 6px; 
+                border-radius: 20px;
+            }
+        }
+
+        @media all and (max-width:500px) {
+            section .carousel .nav{
+                height: 300px;
+                width: 100%;
+                border: 3px solid rgb(18, 193, 29);
+                padding: 6px; 
+                border-radius: 20px;
+            }   
+        }
+        @media all and (max-width:400px) and (min-width:200px){
+            section .carousel .nav{
+                height: 300px;
+                width: 100%;
+                border: 2px solid rgb(0, 60, 255);     
+            }
+        }
+
+
+    </style>
+</head>
+<body>
+    <section>
+        <div class="carousel"
+        data-flickity='{ "autoPlay": 1500, "pauseAutoPlayOnHover": false }'>
+        <div class="carousel-cell"><img  class="nav"src="./photos/1.png"  alt="#"></div>
+        <div class="carousel-cell"> <img class="nav" src="./photos/2.png"  alt="#"></div>
+        <div class="carousel-cell"><img class="nav" src="./photos/3.png"  alt="#"></div>
+        <div class="carousel-cell"><img  class="nav"src="./photos/4.png"  alt="#"></div>
+        <div class="carousel-cell"> <img class="nav" src="./photos/5.png"  alt="#"></div>
+        <div class="carousel-cell"><img class="nav" src="./photos/6.png"  alt="#"></div>
+        <div class="carousel-cell"><img  class="nav"src="./photos/7.png"  alt="#"></div>
+        <div class="carousel-cell"> <img class="nav" src="./photos/8.png"  alt="#"></div>
+        <div class="carousel-cell"><img class="nav" src="./photos/9.png"  alt="#"></div>
+
+    </section>
+    <!-- JavaScript -->
+    <!-- this code is copied from flicker  -->
+<script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+</body>
+</html>
